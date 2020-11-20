@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.SistemaAgencia", "ByteBank.SistemaAgencia\ByteBank.SistemaAgencia.csproj", "{1946E89D-BC96-423D-A13E-52E68A720635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Modelos", "ByteBank.Modelos\ByteBank.Modelos.csproj", "{6735992E-0370-41A2-AA7C-BD2F4D4AD588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1946E89D-BC96-423D-A13E-52E68A720635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1946E89D-BC96-423D-A13E-52E68A720635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1946E89D-BC96-423D-A13E-52E68A720635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1946E89D-BC96-423D-A13E-52E68A720635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6735992E-0370-41A2-AA7C-BD2F4D4AD588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6735992E-0370-41A2-AA7C-BD2F4D4AD588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6735992E-0370-41A2-AA7C-BD2F4D4AD588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6735992E-0370-41A2-AA7C-BD2F4D4AD588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDBAD928-1835-4FEC-A2FF-5785CBB6A4BB}
+	EndGlobalSection
+EndGlobal
