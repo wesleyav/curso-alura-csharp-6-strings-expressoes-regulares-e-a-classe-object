@@ -20,21 +20,29 @@ namespace ByteBank.SistemaAgencia
             }
 
 
-            int indiceInterrogacao = URL.IndexOf('?');
+            int indiceInterrogacao = url.IndexOf('?');
             _argumentos = url.Substring(indiceInterrogacao + 1);
 
-          
-                URL = url;
+
+            URL = url;
 
         }
 
         // moedaOrigem=real&moedaDestino=dolar
         public string GetValor(string nomeParametro)
         {
-            return "";
-            //int indiceParametro = _argumentos.IndexOf
+            string termo = nomeParametro + "="; // moedaDestino=
+            int indiceTermo = _argumentos.IndexOf(termo); // x
+
+            string resultado = _argumentos.Substring(indiceTermo + termo.Length); // dolar
+            int indiceEComercial = resultado.IndexOf('&');
+
+            if (indiceEComercial == -1)
+            {
+                return resultado;
+            }
+
+            return resultado.Remove(indiceEComercial);
         }
-
-
     }
 }
