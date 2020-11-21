@@ -22,6 +22,9 @@ namespace ByteBank.SistemaAgencia
             object conta = new ContaCorrente(456, 687876);
             object desenvolvedor = new Desenvolvedor("4564654");
 
+            string contaToString = conta.ToString();
+
+            Console.WriteLine("Resultado " + contaToString);
             Console.WriteLine(conta);
 
             Console.ReadLine();
