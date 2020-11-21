@@ -14,6 +14,21 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Olá, mundo!");
+            Console.WriteLine(123);
+            Console.WriteLine(10.5);
+            Console.WriteLine(true);
+
+            object conta = new ContaCorrente(456, 687876);
+            object desenvolvedor = new Desenvolvedor("4564654");
+
+            Console.WriteLine(conta);
+
+            Console.ReadLine();
+        }
+
+        public static void TestaString()
+        {
             string padrao = "[0-9]{4,5}-?[0-9]{4}";
             string textoDeTeste = "Meu nome é Guilherme, me ligueem 94784-4546";
 
@@ -31,7 +46,7 @@ namespace ByteBank.SistemaAgencia
 
             Console.WriteLine(urlTeste.Contains("bytebank"));
 
-            
+
             Console.ReadLine();
 
 
@@ -72,14 +87,7 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine(palavra.Substring(indice + nomeArgumento.Length));
             Console.ReadLine();
 
-
-
-
-
-
-
-
-
+                                                               
 
             // Testando o IsNullOrEmpty
             string textoVazio = "";
@@ -102,10 +110,6 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine(url);
             string argumentos = url.Substring(indiceInterrogacao + 1);
             Console.WriteLine(argumentos);
-
-
-
-            Console.ReadLine();
         }
 
 
